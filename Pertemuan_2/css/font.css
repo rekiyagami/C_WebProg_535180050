@@ -1,0 +1,39 @@
+p.sans-serif{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.serif{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p.monospace{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p.satu{
+    font-size: xx-small;   
+}
+
+
+p.dua{
+    font-size: 3pc;
+}
+
+
+p.tiga{
+    font: 12px;
+}
+
+
+p.empat{
+    font-size: 70%;
+}
+
+h1{
+    font-style: italic;
+}
+
+h3{
+    font-style: oblique;
+}

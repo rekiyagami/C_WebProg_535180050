@@ -1,0 +1,19 @@
+h1.underline{
+    text-decoration: underline;
+}
+
+h1.overline{
+    text-decoration: overline;
+}
+
+h1.line-through{
+    text-decoration: line-through;
+}
+
+
+.satu{
+    letter-spacing: 3px;
+}
+.world{
+    word-spacing: 30px;
+}
