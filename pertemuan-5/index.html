@@ -1,0 +1,58 @@
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello World!";
+document.write(Date());
+document.getElementById("p2").style.color = "blue";
+function changeText(id) {
+  id.innerHTML = "Ooops!";
+}
+document.getElementById("myBtn").addEventListener("click", displayDate);
+alert(document.documentElement.innerHTML);
+
+var parent = document.getElementById("div1");
+var child = document.getElementById("p1");
+var para = document.createElement("p");
+var node = document.createTextNode("This is new.");
+para.appendChild(node);
+parent.replaceChild(para,child);
+
+function myFunction() {
+  var myCollection = document.getElementsByTagName("p");
+  var i;
+  for (i = 0; i < myCollection.length; i++) {
+    myCollection[i].style.color = "red";
+  }
+}
+
+</script>
+
+
+<div id ="container">
+    <div id ="animate">My animation will go here</div>
+  </div>
+
+  <button id="myBtn">Try it</button>
+  <p>The DOM is very useful!</p>
+<p>This example demonstrates the <b>document.documentElement</b> property.</p>
+
+<div id="div1">
+    <p id="p1">This is a paragraph.</p>
+    <p id="p2">This is another paragraph.</p>
+    </div>
+
+    <h2>JavaScript HTML DOM</h2>
+
+<p>Hello World!</p>
+
+<p>Hello Norway!</p>
+
+<p>Click the button to change the color of all p elements.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+</body>
+</html>
